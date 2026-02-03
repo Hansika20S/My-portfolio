@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f1ec;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #e6d9ff;
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    font-style: italic;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    align-items: center;
+}
+
+.photo-box {
+    width: 160px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3px solid #5c6bc0;
+    overflow: hidden;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.about-text {
+    max-width: 700px;
+}
+
+/* Cards Layout */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #e6d9ff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3f3d56;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+footer a:hover {
+    color: #1a237e;
+}
